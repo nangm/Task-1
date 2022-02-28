@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: cartservice
+spec:
+ selector:
+   matchLabels:
+     app: cartservice
+ template:
+   metadata:
+     labels:
+       app: cartservice
+   spec:
+     containers:
+     - name: cartservice
+       image: nangm/cartservice
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+ name: cartservice
+spec:
+ selector:
+   app: cartservice
+ ports:
+ - port: 80
+   targetPort: 5000

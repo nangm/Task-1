@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\CartApi\\CartApi.csproj": {}
+    "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\Task-1\\CartApi.csproj": {}
   },
   "projects": {
-    "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\CartApi\\CartApi.csproj": {
+    "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\Task-1\\CartApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\CartApi\\CartApi.csproj",
+        "projectUniqueName": "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\Task-1\\CartApi.csproj",
         "projectName": "CartApi",
-        "projectPath": "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\CartApi\\CartApi.csproj",
+        "projectPath": "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\Task-1\\CartApi.csproj",
         "packagesPath": "C:\\Users\\Nang\\.nuget\\packages\\",
-        "outputPath": "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\CartApi\\obj\\",
+        "outputPath": "D:\\7.LearnAndTest\\AdvAssessment\\Task-1\\Task-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nang\\AppData\\Roaming\\NuGet\\NuGet.Config",
