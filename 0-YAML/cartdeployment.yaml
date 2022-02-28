@@ -14,8 +14,12 @@ spec:
      containers:
      - name: cartservice
        image: nangm/cartservice
-       ports:
-        - containerPort: 8080
+       env:
+        - name: RABBITMQ_HOST
+          value: "rabbitmq"
+        - name: RABBITMQ_PORT
+          value: "5672"
+
 ---
 apiVersion: v1
 kind: Service
@@ -28,4 +32,3 @@ spec:
  ports:
  - port: 80
    targetPort: 5000
-   nodePort: 31672
