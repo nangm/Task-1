@@ -31,4 +31,4 @@ spec:
    app: cartservice
  ports:
  - port: 80
-   targetPort: 5000
+   targetPort: 31672
